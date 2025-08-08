@@ -1,0 +1,9 @@
+name: CI-CD
+on:
+  push:
+    branch:[main]
+
+job:
+  test:
+    runs-on: ubuntu-lasted
+      run:
